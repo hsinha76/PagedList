@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PagedList" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorPrimary</item>
+
+        <item name="actionBarTheme">@style/ThemeOverlay.ActionBar</item>
+
+    </style>
+
+    <style name="Theme.PagedList" parent="Base.Theme.PagedList" />
+
+    <style name="ThemeOverlay.ActionBar" parent="">
+        <item name="titleTextColor">@color/black</item>
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+</resources>
